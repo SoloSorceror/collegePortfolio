@@ -1,0 +1,141 @@
+.achievements-section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.achievements-container {
+  width: var(--cWidth);
+  max-width: var(--cMaxWidth);
+  margin: 0 auto;
+}
+
+.achievements-section h2 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.achievements-section h2 .section-icon {
+  color: var(--accentColor);
+  font-size: 40px;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.achievement-card {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  padding: 36px 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(194, 164, 255, 0.1);
+  border-radius: 16px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.achievement-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(194, 164, 255, 0.25);
+  transform: translateX(8px);
+}
+
+.achievement-number {
+  font-size: 48px;
+  font-weight: 200;
+  color: rgba(194, 164, 255, 0.2);
+  line-height: 1;
+  min-width: 60px;
+}
+
+.achievement-content {
+  flex: 1;
+}
+
+.achievement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.achievement-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #eae5ec;
+  margin: 0;
+}
+
+.achievement-date {
+  font-size: 13px;
+  color: var(--accentColor);
+  background: rgba(194, 164, 255, 0.1);
+  padding: 4px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.achievement-content p {
+  font-size: 14px;
+  color: rgba(234, 229, 236, 0.6);
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.achievement-category {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accentColor);
+  background: rgba(194, 164, 255, 0.08);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.achievement-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accentColor), transparent);
+  transition: width 0.4s ease;
+}
+
+.achievement-card:hover .achievement-line {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .achievements-section {
+    padding: 60px 0;
+  }
+
+  .achievements-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .achievement-card {
+    padding: 24px 20px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .achievement-number {
+    font-size: 32px;
+  }
+
+  .achievement-header {
+    flex-direction: column;
+  }
+}

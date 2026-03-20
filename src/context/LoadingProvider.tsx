@@ -6,6 +6,7 @@ import {
   useState,
 } from "react";
 import Loading from "../components/Loading";
+import { setProgress } from "../components/Loading";
 
 interface LoadingType {
   isLoading: boolean;
@@ -28,9 +29,10 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
     setIsLoading,
     setLoading,
   };
+
   useEffect(() => {
-    // Auto-start animations on mobile since there's no 3D model
     if (window.innerWidth <= 768) {
+      // Auto-start animations on mobile since there's no 3D model
       import("../components/utils/initialFX").then((module) => {
         if (module.initialFX) {
           setTimeout(() => {
@@ -38,6 +40,13 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
           }, 100);
         }
       });
+    } else {
+      // No 3D model — simulate loading and auto-complete
+      const progress = setProgress((value) => setLoading(value));
+      // Simulate a quick load since we don't have a heavy 3D model anymore
+      setTimeout(() => {
+        progress.loaded();
+      }, 800);
     }
   }, []);
 

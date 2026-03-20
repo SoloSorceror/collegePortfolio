@@ -1,193 +1,251 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Sanjay",
+        fullName: "Sanjay Chetry",
+        title: "Full-Stack Developer & ML Enthusiast",
+        description: "Full-Stack Developer & ML Enthusiast building modern web applications and intelligent systems. Passionate about MERN stack, machine learning, NLP, and creating impactful software solutions."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "SoloSorceror",
+        email: "sanjaychetry1043@gmail.com",
+        phone: "+91-7099549206",
+        location: "Phagwara, Punjab, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I'm Sanjay Chetry, a B.Tech CSE student at LPU focused on scalable web apps and machine learning. I work with the MERN stack, have real work experience, and have solved 400+ problems with a 1627 LeetCode rating. I enjoy hackathons and building full-stack products."
     },
+    careerObjective: "Aspiring software engineer seeking opportunities to apply full-stack development and machine learning skills in a dynamic, innovation-driven environment. Eager to contribute to impactful projects while continuously growing as a developer.",
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "SDE Intern",
+            company: "Vanillakart – IT Services and IT Consulting",
+            period: "Sep 2025 - Nov 2025",
+            location: "Remote",
+            description: "Developed a full-stack MERN-based Learning Management System (LMS), translating business requirements into a scalable and user-friendly web application.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Developed a full-stack MERN-based Learning Management System (LMS)",
+                "Implemented JWT-based authentication and Role-Based Access Control (RBAC) for enterprise-level data protection",
+                "Collaborated with an agile team to design reusable components and optimize workflows, improving turnaround time and maintainability"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
-        },
-        {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "RBAC"],
+            links: {
+                certificate: "#"
+            }
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Cliply – URL Shortener",
+            category: "Full Stack",
+            technologies: "React, Node.js, Express, MongoDB, Docker, JWT, OAuth 2.0",
+            image: "/images/project-1.webp",
+            description: "Built a full-stack URL shortening platform with secure authentication via JWT and Google OAuth 2.0, and email-based OTP verification. Implemented NanoID-based link generation supporting over 4 trillion unique URLs, with custom aliases, QR code generation, link expiration, and real-time click analytics with device and browser tracking. Containerized and deployed with Docker on Vercel (frontend) and Render (backend).",
+            role: "Solo Developer",
+            challenges: "Implementing NanoID-based link generation at scale with real-time analytics tracking across distributed cloud platforms.",
+            outcomes: "Production-ready URL shortener with analytics dashboard, supporting 4T+ unique URLs.",
+            github: "https://github.com/SoloSorceror/cliply",
+            demo: "#",
+            period: "Jan 2026 – Feb 2026"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "LexiMed: Medical NLP Symptom Classifier",
+            category: "AI / NLP",
+            technologies: "Python, BiLSTM, DistilBERT, FastAPI, NLP, Transfer Learning",
+            image: "/images/project-2.webp",
+            description: "Designed and evolved an NLP classification pipeline by upgrading the core model from BiLSTM to DistilBERT, leveraging transfer learning to improve interpretation of colloquial and noisy symptom descriptions. Built a production-ready FastAPI inference service with confidence threshold (<60%) and automated logging of ambiguous queries. Generated a synthetic dataset of 20,000+ samples by mapping standardized medical terminology to diverse user-like expressions with injected noise.",
+            role: "Solo Developer",
+            challenges: "Handling noisy, colloquial medical text and building a robust inference pipeline with confidence-based routing.",
+            outcomes: "Production-ready NLP classifier with 20K+ synthetic training samples and automated ambiguity detection.",
+            github: "https://github.com/SoloSorceror/NlpProjectSanjay",
+            demo: "",
+            period: "Nov 2025 – Dec 2025"
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Portfolio Website",
+            category: "Frontend / 3D",
+            technologies: "React, Three.js, GSAP, TypeScript, Lenis, Vite",
+            image: "/images/project-3.webp",
+            description: "A cinematic 3D portfolio website with smooth scroll-driven animations, interactive 3D character model, and premium dark-mode UI. Features GSAP-powered section transitions and a responsive design.",
+            role: "Solo Developer",
+            challenges: "Orchestrating complex GSAP ScrollTrigger timelines with Three.js 3D model interactions.",
+            outcomes: "Stunning, high-performance portfolio with 3D interactivity and buttery-smooth animations.",
+            github: "https://github.com/SoloSorceror/sanjayPortfolio",
+            demo: "https://sanjaychetry.vercel.app/",
+            period: "2025"
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "Blockchain Clinical Trial App",
+            category: "Blockchain / Mobile",
+            technologies: "React Native, Ethereum, Solidity, Web3.js",
+            image: "/images/project-4.webp",
+            description: "Built a blockchain-based clinical trial application using React Native and Ethereum during the Smart India Hackathon 2024. The app ensures transparent, tamper-proof trial data management leveraging smart contracts.",
+            role: "Team Developer",
+            challenges: "Integrating blockchain with a mobile-first architecture for real-time clinical data tracking.",
+            outcomes: "University finalist project at Smart India Hackathon 2024, selected among 8,000+ participants.",
+            github: "https://github.com/SoloSorceror/react-native-expo-router-nativewind-boilerplate",
+            demo: "",
+            period: "Sep 2024"
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "DSA Problem Tracker",
+            category: "Full Stack",
+            technologies: "React, Node.js, MongoDB, Express",
+            image: "/images/project-5.webp",
+            description: "A full-stack web application to track and organize Data Structures & Algorithms practice, with categorized problem lists, progress tracking, and performance analytics.",
+            role: "Solo Developer",
+            challenges: "Designing an intuitive UI for complex filtering and categorization of 1000+ problems.",
+            outcomes: "Streamlined DSA practice workflow with visual progress analytics.",
+            github: "https://github.com/SoloSorceror/DsaTutorialGit",
+            demo: "",
+            period: "2024"
+        }
+    ],
+    education: [
+        {
+            institution: "Lovely Professional University",
+            location: "Phagwara, Punjab",
+            degree: "Bachelor of Technology",
+            field: "Computer Science and Engineering",
+            grade: "CGPA: 7.76/10",
+            period: "Aug 2023 – May 2027",
+            coursework: ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks", "Machine Learning", "Object-Oriented Programming", "Software Engineering", "Web Development"]
         },
         {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            institution: "Pearl Academy Junior College",
+            location: "Biswanath, Assam",
+            degree: "Intermediate (12th)",
+            field: "Science",
+            grade: "Percentage: 81%",
+            period: "Apr 2020 – Mar 2022",
+            coursework: []
         },
         {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            institution: "Stella Maris School",
+            location: "Helem, Assam",
+            degree: "Matriculation (10th)",
+            field: "",
+            grade: "Percentage: 84.2%",
+            period: "Jul 2008 – May 2020",
+            coursework: []
+        }
+    ],
+    certificates: [
+        {
+            name: "OCI Certified Data Science Professional",
+            issuer: "Oracle",
+            category: "Data Science",
+            date: "Sep 2025",
+            link: "#"
         },
         {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            name: "Summer Training – Programming Pathshala",
+            issuer: "Programming Pathshala",
+            category: "Programming",
+            date: "Jul 2025",
+            link: "#"
+        },
+        {
+            name: "Supervised Machine Learning",
+            issuer: "DeepLearning.AI",
+            category: "Machine Learning",
+            date: "Feb 2025",
+            link: "#"
+        },
+        {
+            name: "Data Structures and Algorithms",
+            issuer: "Iamneo",
+            category: "DSA",
+            date: "Dec 2024",
+            link: "#"
+        }
+    ],
+    achievements: [
+        {
+            title: "LeetCode Contest Rating: 1627",
+            date: "Dec 2025",
+            description: "Demonstrated strong problem-solving skills through consistent contest participation. Solved 300+ problems on LeetCode & GFG.",
+            category: "Competitive Programming"
+        },
+        {
+            title: "Smart India Hackathon 2024 - University Finalist",
+            date: "Sep 2024",
+            description: "Selected among 8,000+ participants to represent the university at the final stage. Built a blockchain-based clinical trial app using React Native and Ethereum.",
+            category: "Hackathon"
+        }
+    ],
+    competitiveProgramming: {
+        platforms: [
+            {
+                name: "LeetCode",
+                handle: "sanjaychetry",
+                rating: "1627 (Contest Rating)",
+                problemsSolved: "300+",
+                url: "https://leetcode.com/sanjaychetry",
+                icon: "leetcode"
+            },
+            {
+                name: "GeeksforGeeks",
+                handle: "sanjaychetry",
+                rating: "",
+                problemsSolved: "100+",
+                url: "https://www.geeksforgeeks.org/user/sanjaychetry",
+                icon: "gfg"
+            },
+            {
+                name: "HackerRank",
+                handle: "sanjaychetry",
+                rating: "",
+                problemsSolved: "50+",
+                url: "https://www.hackerrank.com/sanjaychetry",
+                icon: "hackerrank"
+            }
+        ],
+        highlights: [
+            "300+ problems solved across LeetCode and GFG",
+            "LeetCode Contest Rating: 1627",
+            "Consistent participation in weekly coding contests",
+            "Strong focus on Data Structures, Algorithms & Problem Solving"
+        ]
+    },
+    research: [
+        {
+            title: "NLP-based Medical Symptom Classification using Transfer Learning",
+            abstract: "Explored the effectiveness of transfer learning approaches (BiLSTM → DistilBERT) for classifying noisy, colloquial medical symptom descriptions. Demonstrated improved accuracy through synthetic data augmentation and confidence-based routing.",
+            coAuthors: "Sanjay Chetry",
+            publication: "Under Preparation",
+            link: ""
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "sanjaychetry1043@gmail.com",
+        github: "https://github.com/SoloSorceror",
+        linkedin: "https://linkedin.com/in/sanjaychetry",
+        portfolio: "https://sanjaychetry.vercel.app/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "FULL-STACK DEVELOPER",
+            description: "Building modern web applications & scalable backends",
+            details: "Building full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in RESTful API development, JWT authentication, OAuth 2.0, Docker containerization, and cloud deployment on Vercel and Render.",
+            tools: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "TypeScript", "Docker", "Git", "JWT", "REST APIs"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "ML & DATA SCIENCE",
+            description: "Intelligent systems & data-driven solutions",
+            details: "Exploring machine learning with Scikit-learn, NLP with transfer learning (BiLSTM, DistilBERT), and data analysis using Pandas, NumPy, and Matplotlib. Experience building production-ready ML pipelines with FastAPI.",
+            tools: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "NLP", "FastAPI", "Jupyter", "TensorFlow", "Deep Learning"]
         }
-    }
+    },
+    programmingLanguages: ["C++", "Python", "JavaScript"],
+    frameworks: ["React.js", "Tailwind CSS", "Node.js", "Express.js"],
+    databases: ["MongoDB", "Mongoose", "MySQL"],
+    toolsPlatforms: ["Docker", "Git", "GitHub", "Jupyter Notebooks"],
+    machineLearning: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+    softSkills: ["Problem Solving", "Communication", "Team Collaboration", "Adaptability", "Leadership"]
 };
-
-

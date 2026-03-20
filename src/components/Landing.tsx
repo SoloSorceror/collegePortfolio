@@ -1,6 +1,7 @@
 import { PropsWithChildren } from "react";
 import "./styles/Landing.css";
 import { config } from "../config";
+import portfolioImage from "../assets/portfolioImage.webp";
 
 const Landing = ({ children }: PropsWithChildren) => {
   const nameParts = config.developer.fullName.split(" ");
@@ -11,28 +12,39 @@ const Landing = ({ children }: PropsWithChildren) => {
     <>
       <div className="landing-section" id="landingDiv">
         <div className="landing-container">
-          <div className="landing-intro">
-            <h2>Hello! I'm</h2>
-            <h1>
-              {firstName.toUpperCase()}
-              {' '}
-              <br />
-              {lastName && <span>{lastName.toUpperCase()}</span>}
-            </h1>
+          
+          <div className="landing-content-left">
+            <div className="landing-intro">
+              <h2>Hello! I'm</h2>
+              <h1>
+                {firstName.toUpperCase()}
+                {' '}
+                <br />
+                {lastName && <span>{lastName.toUpperCase()}</span>}
+              </h1>
+            </div>
+            <div className="landing-info">
+              <h3>A</h3>
+              <h2 className="landing-info-h2">
+                <div className="landing-h2-1">Full-Stack Developer</div>
+              </h2>
+              <h2>
+                <div className="landing-h2-info">ML Enthusiast</div>
+              </h2>
+            </div>
           </div>
-          <div className="landing-info">
-            <h3>An</h3>
-            <h2 className="landing-info-h2">
-              <div className="landing-h2-1">AI Engineer</div>
-            </h2>
-            <h2>
-              <div className="landing-h2-info">Full-Stack Developer</div>
-            </h2>
+
+          <div className="landing-content-right">
+            <div className="hero-image-wrapper">
+              <img 
+                src={portfolioImage} 
+                alt="Sanjay Chetry" 
+                className="hero-image"
+              />
+              <div className="hero-image-glow"></div>
+            </div>
           </div>
-          {/* Mobile photo - shows only on mobile when 3D character is hidden */}
-          <div className="mobile-photo">
-            <img src="/images/mypicnbg.png" alt="Redoyanul Haque" />
-          </div>
+
         </div>
         {children}
       </div>
