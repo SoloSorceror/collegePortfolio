@@ -141,6 +141,7 @@ export const config = {
             issuer: "Oracle",
             category: "Data Science",
             date: "Sep 2025",
+            image: "/images/placeholder-cert.webp",
             link: "#"
         },
         {
@@ -148,6 +149,7 @@ export const config = {
             issuer: "Programming Pathshala",
             category: "Programming",
             date: "Jul 2025",
+            image: "/images/placeholder-cert.webp",
             link: "#"
         },
         {
@@ -155,6 +157,7 @@ export const config = {
             issuer: "DeepLearning.AI",
             category: "Machine Learning",
             date: "Feb 2025",
+            image: "/images/placeholder-cert.webp",
             link: "#"
         },
         {
@@ -162,6 +165,7 @@ export const config = {
             issuer: "Iamneo",
             category: "DSA",
             date: "Dec 2024",
+            image: "/images/placeholder-cert.webp",
             link: "#"
         }
     ],

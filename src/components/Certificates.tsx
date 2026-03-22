@@ -47,6 +47,15 @@ const Certificates = () => {
           {config.certificates.map((cert, index) => (
             <div key={index} className="cert-card">
               <div className="cert-category">{cert.category}</div>
+              <div className="cert-image-container">
+                {cert.link && cert.link !== "#" ? (
+                  <a href={cert.link} target="_blank" rel="noopener noreferrer" data-cursor="disable">
+                    <img src={cert.image} alt={cert.name} className="cert-image" />
+                  </a>
+                ) : (
+                  <img src={cert.image} alt={cert.name} className="cert-image" />
+                )}
+              </div>
               <h3>{cert.name}</h3>
               <p className="cert-issuer">{cert.issuer}</p>
               <span className="cert-date">{cert.date}</span>

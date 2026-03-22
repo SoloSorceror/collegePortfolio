@@ -1,0 +1,6 @@
+﻿
+> moncy-portfolio@0.0.0 build
+> tsc -b && vite build
+
+src/components/Character/utils/character.ts(3,10): error TS2724: '"../../utils/GsapScroll"' has no exported member named 'setCharTimeline'. Did you mean 'setAllTimeline'?
+src/components/Character/utils/resizeUtils.ts(3,10): error TS2724: '"../../utils/GsapScroll"' has no exported member named 'setCharTimeline'. Did you mean 'setAllTimeline'?
