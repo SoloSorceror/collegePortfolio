@@ -1,7 +1,7 @@
 import { PropsWithChildren } from "react";
 import "./styles/Landing.css";
 import { config } from "../config";
-import portfolioImage from "../assets/portfolioImage.webp";
+import portfolioImage from "../assets/portfolioImage.jpg";
 
 const Landing = ({ children }: PropsWithChildren) => {
   const nameParts = config.developer.fullName.split(" ");
