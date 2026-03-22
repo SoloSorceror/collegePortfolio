@@ -45,31 +45,28 @@ const Certificates = () => {
         </h2>
         <div className="cert-grid">
           {config.certificates.map((cert, index) => (
-            <div key={index} className="cert-card">
+            <div 
+              key={index} 
+              className="cert-card"
+              onClick={() => {
+                if (cert.link && cert.link !== "#") {
+                  window.open(cert.link, "_blank");
+                } else {
+                  alert("Please update config.ts with your actual certificate URL to enable this link!");
+                }
+              }}
+              style={{ cursor: "pointer" }}
+            >
               <div className="cert-category">{cert.category}</div>
               <div className="cert-image-container">
-                {cert.link && cert.link !== "#" ? (
-                  <a href={cert.link} target="_blank" rel="noopener noreferrer" data-cursor="disable">
-                    <img src={cert.image} alt={cert.name} className="cert-image" />
-                  </a>
-                ) : (
-                  <img src={cert.image} alt={cert.name} className="cert-image" />
-                )}
+                <img src={cert.image} alt={cert.name} className="cert-image" />
               </div>
               <h3>{cert.name}</h3>
               <p className="cert-issuer">{cert.issuer}</p>
               <span className="cert-date">{cert.date}</span>
-              {cert.link && cert.link !== "#" && (
-                <a
-                  href={cert.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cert-link"
-                  data-cursor="disable"
-                >
-                  View Certificate <MdArrowOutward />
-                </a>
-              )}
+              <span className="cert-link" data-cursor="disable">
+                {cert.link && cert.link !== "#" ? "View Certificate" : "Link pending..."} <MdArrowOutward />
+              </span>
               <div className="cert-glow"></div>
             </div>
           ))}

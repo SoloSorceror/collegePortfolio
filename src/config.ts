@@ -40,7 +40,7 @@ export const config = {
             title: "Cliply – URL Shortener",
             category: "Full Stack",
             technologies: "React, Node.js, Express, MongoDB, Docker, JWT, OAuth 2.0",
-            image: "/images/project-1.webp",
+            image: "/images/image1.jpg",
             description: "Built a full-stack URL shortening platform with secure authentication via JWT and Google OAuth 2.0, and email-based OTP verification. Implemented NanoID-based link generation supporting over 4 trillion unique URLs, with custom aliases, QR code generation, link expiration, and real-time click analytics with device and browser tracking. Containerized and deployed with Docker on Vercel (frontend) and Render (backend).",
             role: "Solo Developer",
             challenges: "Implementing NanoID-based link generation at scale with real-time analytics tracking across distributed cloud platforms.",
@@ -54,7 +54,7 @@ export const config = {
             title: "LexiMed: Medical NLP Symptom Classifier",
             category: "AI / NLP",
             technologies: "Python, BiLSTM, DistilBERT, FastAPI, NLP, Transfer Learning",
-            image: "/images/project-2.webp",
+            image: "/images/image2.jpg",
             description: "Designed and evolved an NLP classification pipeline by upgrading the core model from BiLSTM to DistilBERT, leveraging transfer learning to improve interpretation of colloquial and noisy symptom descriptions. Built a production-ready FastAPI inference service with confidence threshold (<60%) and automated logging of ambiguous queries. Generated a synthetic dataset of 20,000+ samples by mapping standardized medical terminology to diverse user-like expressions with injected noise.",
             role: "Solo Developer",
             challenges: "Handling noisy, colloquial medical text and building a robust inference pipeline with confidence-based routing.",
@@ -68,7 +68,7 @@ export const config = {
             title: "Portfolio Website",
             category: "Frontend / 3D",
             technologies: "React, Three.js, GSAP, TypeScript, Lenis, Vite",
-            image: "/images/project-3.webp",
+            image: "/images/image3.jpg",
             description: "A cinematic 3D portfolio website with smooth scroll-driven animations, interactive 3D character model, and premium dark-mode UI. Features GSAP-powered section transitions and a responsive design.",
             role: "Solo Developer",
             challenges: "Orchestrating complex GSAP ScrollTrigger timelines with Three.js 3D model interactions.",
@@ -82,7 +82,7 @@ export const config = {
             title: "Blockchain Clinical Trial App",
             category: "Blockchain / Mobile",
             technologies: "React Native, Ethereum, Solidity, Web3.js",
-            image: "/images/project-4.webp",
+            image: "/images/image4.jpg",
             description: "Built a blockchain-based clinical trial application using React Native and Ethereum during the Smart India Hackathon 2024. The app ensures transparent, tamper-proof trial data management leveraging smart contracts.",
             role: "Team Developer",
             challenges: "Integrating blockchain with a mobile-first architecture for real-time clinical data tracking.",
@@ -96,7 +96,7 @@ export const config = {
             title: "DSA Problem Tracker",
             category: "Full Stack",
             technologies: "React, Node.js, MongoDB, Express",
-            image: "/images/project-5.webp",
+            image: "/images/image5.jpg",
             description: "A full-stack web application to track and organize Data Structures & Algorithms practice, with categorized problem lists, progress tracking, and performance analytics.",
             role: "Solo Developer",
             challenges: "Designing an intuitive UI for complex filtering and categorization of 1000+ problems.",
@@ -141,32 +141,32 @@ export const config = {
             issuer: "Oracle",
             category: "Data Science",
             date: "Sep 2025",
-            image: "/images/placeholder-cert.webp",
-            link: "#"
+            image: "/images/oracle.png",
+            link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=933F5AB9549BA4E86FB2B222CAAA96CB5985E528BCC9BCC3AA7AEF58BC33BC7D"
         },
         {
             name: "Summer Training – Programming Pathshala",
             issuer: "Programming Pathshala",
             category: "Programming",
             date: "Jul 2025",
-            image: "/images/placeholder-cert.webp",
-            link: "#"
+            image: "/images/summertraining.png",
+            link: "https://drive.google.com/file/d/14u_gpgf-1X0JchkTYk4ozk7SWd2CSsbS/view"
         },
         {
             name: "Supervised Machine Learning",
             issuer: "DeepLearning.AI",
             category: "Machine Learning",
             date: "Feb 2025",
-            image: "/images/placeholder-cert.webp",
-            link: "#"
+            image: "/images/machinelearning.png",
+            link: "https://www.coursera.org/account/accomplishments/verify/F4XF3NQ6MMFU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
         },
         {
             name: "Data Structures and Algorithms",
             issuer: "Iamneo",
             category: "DSA",
             date: "Dec 2024",
-            image: "/images/placeholder-cert.webp",
-            link: "#"
+            image: "/images/dsa.png",
+            link: "https://drive.google.com/file/d/10zbriaXibMaDbnMIlQvZgK1vOnNFPcm6/view"
         }
     ],
     achievements: [
