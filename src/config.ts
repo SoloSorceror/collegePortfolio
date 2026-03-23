@@ -190,7 +190,7 @@ export const config = {
                 handle: "sanjaychetry",
                 rating: "1627 (Contest Rating)",
                 problemsSolved: "300+",
-                url: "https://leetcode.com/sanjaychetry",
+                url: "https://leetcode.com/u/SoLoSorceror/",
                 icon: "leetcode"
             },
             {
@@ -198,7 +198,7 @@ export const config = {
                 handle: "sanjaychetry",
                 rating: "",
                 problemsSolved: "100+",
-                url: "https://www.geeksforgeeks.org/user/sanjaychetry",
+                url: "https://www.geeksforgeeks.org/profile/sorceror99",
                 icon: "gfg"
             },
             {
@@ -206,7 +206,7 @@ export const config = {
                 handle: "sanjaychetry",
                 rating: "",
                 problemsSolved: "50+",
-                url: "https://www.hackerrank.com/sanjaychetry",
+                url: "https://www.hackerrank.com",
                 icon: "hackerrank"
             }
         ],
