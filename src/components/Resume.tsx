@@ -81,7 +81,7 @@ const Resume = () => {
           </div>
           <div className="resume-actions">
             <a
-              href="https://drive.google.com/file/d/19161x7SpuSak9z3Mero9ZhEIREsXkST8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yLu0oztSrSB_hJgAH850aze9pDshm1IZ/view?usp=sharing"
               download
               className="resume-btn resume-btn-download"
               data-cursor="disable"
@@ -89,7 +89,7 @@ const Resume = () => {
               <MdDownload /> Download Resume
             </a>
             <a
-              href="https://drive.google.com/file/d/19161x7SpuSak9z3Mero9ZhEIREsXkST8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yLu0oztSrSB_hJgAH850aze9pDshm1IZ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-btn resume-btn-view"
